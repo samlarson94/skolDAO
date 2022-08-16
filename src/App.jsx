@@ -1,4 +1,5 @@
 import { useAddress, useMetamask } from '@thirdweb-dev/react';
+import logo from '../src/assets/buildertech-logo.png';
 
 const App = () => {
    // Use the hooks thirdweb give us.
@@ -11,8 +12,9 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to SkolDAO</h1>
-        <p>Home of the best fans in the NFL.</p>
+        <h1>Welcome to BuilderTech DAO</h1>
+        <img className="main-logo" src={logo} alt="BuilderTech Logo"/>
+        <p>We shape the future of the built world.</p>
         <br></br>
         <button onClick={connectWithMetamask} className="btn-hero">
           Connect your wallet

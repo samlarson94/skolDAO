@@ -116,8 +116,8 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
   border: none;
   font-weight: bold;
   font-family: inherit;

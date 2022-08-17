@@ -24,10 +24,7 @@ import { readFileSync } from "fs";
     // with this, we can get the metadata of our contract
     const metadata = await editionDrop.metadata.get();
 
-    console.log(
-      "✅ Successfully deployed editionDrop contract, address:",
-      editionDropAddress,
-    );
+    console.log("✅ Successfully deployed editionDrop contract, address:", editionDropAddress);
     console.log("✅ editionDrop metadata:", metadata);
   } catch (error) {
     console.log("failed to deploy editionDrop contract", error);

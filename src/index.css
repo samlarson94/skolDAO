@@ -116,7 +116,8 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: yellow;
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   color: rgb(0, 0, 0);
   border: none;
   font-weight: bold;
@@ -128,7 +129,7 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-position: right center;
 }
 
 button:focus {
